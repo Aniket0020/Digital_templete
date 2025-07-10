@@ -1,0 +1,392 @@
+body {
+    background-image: url("./img/default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    color: white;
+}
+
+.box {
+    max-width: 500px;
+    min-width: 450px;
+    padding: 10px;
+    margin: auto;
+}
+
+/* Subtle img pattern overlay */
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 70px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-card {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    margin-top: -50px;
+    object-fit: cover;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 0;
+    color: white;
+}
+
+.card-title {
+    color: white;
+    font-weight: 600;
+}
+
+.card-text {
+    color: white;
+}
+
+.btn-glass {
+    background: linear-gradient(135deg, #f2c40e, #f9ff45);
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 8px 10px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-glass:hover {
+    background: linear-gradient(135deg, #f9ff45, #f2c40e);
+    transform: translateY(-2px);
+    color: black;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(1.2);
+}
+
+#yt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#yt iframe {
+    width: 100%;
+
+    height: 200px;
+    border-radius: 20px;
+    margin: 40px 0;
+    box-shadow: 1px 10px 20px 0px #5c5c5c;
+}
+
+/* Contact Card */
+.contact-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.contact-card i {
+    font-size: 24px;
+
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+.contact-card strong {
+    font-weight: 600;
+}
+
+/* Whatsapp share */
+
+.share {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+
+.whatsapp-input {
+    width: 80%;
+}
+
+.whatsapp-input input {
+    padding: 15px 15px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.whatsapp-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 15px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-button a i {
+    font-size: 25px;
+}
+
+/* Services */
+
+#service {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.swiper-pagination-bullet {
+    background: #b2b1b1;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #f2c40e;
+}
+
+#service h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.products-grid {
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-style {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    padding: 15px;
+    text-align: center;
+}
+
+.content h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* Gallery Swiper */
+.gallery {
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.gallery h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery-swiper .swiper-slide {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.gallery-swiper .swiper-slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Appointment */
+.appointment-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.appointment-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-control::placeholder {
+    color: white #ffffff;
+}
+
+@media (max-width: 576px) {
+
+    .profile-card,
+    .products-grid,
+    .appointment-card,
+    .contact-container {
+        max-width: 90%;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card-title,
+    .services-title {
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .btn-glass {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
